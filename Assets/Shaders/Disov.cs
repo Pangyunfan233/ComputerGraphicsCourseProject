@@ -18,11 +18,11 @@ public class Disov : MonoBehaviour
 
     void Update()
     {
-        //if (Keyboard.current.enterKey.wasReleasedThisFrame && !isDissolving)
-            // IF DIED
-      //  {
-         //   StartCoroutine(Dissolve());
-        //}
+        if (Keyboard.current.enterKey.wasReleasedThisFrame && !isDissolving)
+           
+        {
+            StartCoroutine(Dissolve());
+        }
     }
 
     private IEnumerator Dissolve()

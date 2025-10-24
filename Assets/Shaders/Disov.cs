@@ -18,11 +18,11 @@ public class Disov : MonoBehaviour
 
     void Update()
     {
-        if (Keyboard.current.enterKey.wasReleasedThisFrame && !isDissolving)
+        //if (Keyboard.current.enterKey.wasReleasedThisFrame && !isDissolving)
             // IF DIED
-        {
-            StartCoroutine(Dissolve());
-        }
+      //  {
+         //   StartCoroutine(Dissolve());
+        //}
     }
 
     private IEnumerator Dissolve()
@@ -54,6 +54,15 @@ public class Disov : MonoBehaviour
                 mat.SetFloat(shaderId, value);
             }
         }
+    }
+
+    private void OnTriggerEnter(Collider other) 
+    { 
+        if (other.CompareTag("Goal") && isDissolving== false) 
+        { Debug.Log("Player reached the goal!");
+            StartCoroutine(Dissolve());
+            isDissolving = true;
+        } 
     }
 }
 

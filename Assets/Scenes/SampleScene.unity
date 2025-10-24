@@ -7494,7 +7494,7 @@ GameObject:
   - component: {fileID: 290907845}
   - component: {fileID: 290907844}
   - component: {fileID: 290907843}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19785,7 +19785,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 732532751}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Orientation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39537,8 +39537,7 @@ GameObject:
   - component: {fileID: 1353304885}
   - component: {fileID: 1353304884}
   - component: {fileID: 1353304883}
-  - component: {fileID: 1353304887}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EndGoal
   m_TagString: Goal
   m_Icon: {fileID: 0}
@@ -39637,20 +39636,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1353304887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1353304882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 253964070c7f0be45b97edb985d12453, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Disov
-  Root: {fileID: 1353304882}
-  DissolveTime: 3
 --- !u!1 &1358082209
 GameObject:
   m_ObjectHideFlags: 0
@@ -47668,7 +47653,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1703586418}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CameraPos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58956,9 +58941,9 @@ GameObject:
   - component: {fileID: 2113138493}
   - component: {fileID: 2113138495}
   - component: {fileID: 2113138496}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

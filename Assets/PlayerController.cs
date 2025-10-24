@@ -52,7 +52,6 @@ public class PlayerController : MonoBehaviour
     {
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
 
-        Debug.Log("Grounded: " + grounded);
 
         MyInput();
         SpeedControl();
@@ -120,7 +119,7 @@ public class PlayerController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Entity"))
         {
-            Destroy(player);
+            
             gameResultOne.text = "GAME OVER";
 #if UNITY_EDITOR
             UnityEditor.EditorApplication.isPlaying = false;

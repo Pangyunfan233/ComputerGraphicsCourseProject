@@ -56421,6 +56421,7 @@ GameObject:
   - component: {fileID: 2016711480}
   - component: {fileID: 2016711479}
   - component: {fileID: 2016711478}
+  - component: {fileID: 2016711482}
   m_Layer: 0
   m_Name: JackBlack
   m_TagString: Untagged
@@ -56520,6 +56521,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2016711482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016711477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dd546199bf33264c90b9ba1c7f648ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShaderSwitcher
+  diffuseMat: {fileID: 2100000, guid: 009a3a30da5d98e45a7714dba8191695, type: 2}
+  ambientMat: {fileID: 2100000, guid: 756489171fe611e43a9eb20c3ef04beb, type: 2}
+  specularMat: {fileID: 2100000, guid: eb5fa396ab5314d45894561d4d38e5f2, type: 2}
+  wrapMat: {fileID: 2100000, guid: 212a98e93feed884899dd55d34e66770, type: 2}
 --- !u!1 &2019793797
 GameObject:
   m_ObjectHideFlags: 0
